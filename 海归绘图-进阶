@@ -1,0 +1,19 @@
+import turtle
+
+
+mikey = turtle.Pen()
+mikey.shape('turtle')
+mikey.speed(1000000000000000000000000000000000000)
+for i in range(1000):
+    mikey.pencolor('blue')
+    mikey.forward(0.5)
+    mikey.left(89)
+    mikey.pencolor('blue')
+    mikey.forward(0.5)
+    mikey.left(89)
+    mikey.pencolor('blue')
+    mikey.forward(0.5)
+    mikey.left(89)
+    mikey.pencolor('blue')
+    mikey.circle(150)
+turtle.done()
