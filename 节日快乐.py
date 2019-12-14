@@ -1,3 +1,4 @@
+import  turtle
 import time
 now = time.gmtime()
 print(now)
@@ -7,21 +8,93 @@ day = now.tm_mday
 
 print(month)
 print(day)
-
+mikey=turtle.Pen()
+mikey.shape("turtle")
 if (month == 8):
     if (day == 22):
         print('我的生日')
+        mikey.write('生日快乐')
+        mikey.forward(300)
+        mikey.left(90)
+        mikey.forward(100)
+        mikey.left(90)
+        mikey.forward(300)
+        mikey.left(90)
+        mikey.forward(100)
+        mikey.left(90)
+        mikey.forward(300)
+        mikey.left(90)
+        mikey.forward(100)
+        mikey.left(90)
+        mikey.forward(150)
+        mikey.right(90)
+        mikey.forward(100)
+        mikey.circle(1)
 if (month == 5):
     if (day == 10):
         print('爹的生日')
+        mikey.write('生日快乐')
+        mikey.forward(300)
+        mikey.left(90)
+        mikey.forward(100)
+        mikey.left(90)
+        mikey.forward(300)
+        mikey.left(90)
+        mikey.forward(100)
+        mikey.left(90)
+        mikey.forward(300)
+        mikey.left(90)
+        mikey.forward(100)
+        mikey.left(90)
+        mikey.forward(150)
+        mikey.right(90)
+        mikey.forward(100)
+        mikey.circle(1)
     elif (day == 9):
         print('老弟的生日')
+        mikey.write('生日快乐')
+        mikey.forward(300)
+        mikey.left(90)
+        mikey.forward(100)
+        mikey.left(90)
+        mikey.forward(300)
+        mikey.left(90)
+        mikey.forward(100)
+        mikey.left(90)
+        mikey.forward(300)
+        mikey.left(90)
+        mikey.forward(100)
+        mikey.left(90)
+        mikey.forward(150)
+        mikey.right(90)
+        mikey.forward(100)
+        mikey.circle(1)
 if (month == 12):
-    if (day == 7):
+    if (day == 14):
         print('某人的生日')
+        mikey.write('生日快乐')
+        mikey.forward(300)
+        mikey.left(90)
+        mikey.forward(100)
+        mikey.left(90)
+        mikey.forward(300)
+        mikey.left(90)
+        mikey.forward(100)
+        mikey.left(90)
+        mikey.forward(300)
+        mikey.left(90)
+        mikey.forward(100)
+        mikey.left(90)
+        mikey.forward(150)
+        mikey.right(90)
+        mikey.forward(100)
+        mikey.circle(1)
+
 if (month == 6):
     if (day == 21):
         print('父亲节快乐')
+        
 if (month == 5):
     if (day == 10):
         print('母亲节快乐')
+turtle.done()
